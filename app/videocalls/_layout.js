@@ -3,11 +3,13 @@ import { View, Platform } from "react-native";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import Icon from "react-native-vector-icons/FontAwesome5";
 import { NavigationContainer } from "@react-navigation/native";
+import Main from "./index";
 const Quran = () => null;
 const Settings = () => null;
 const QibleDirection2 = () => null;
 const Home2 = () => null;
 const Tab = createBottomTabNavigator();
+
 export default function TabNavigator() {
   const btnbackground2 = "#FEC903",
     background = "#000",
@@ -25,15 +27,15 @@ export default function TabNavigator() {
         tabBarActiveTintColor: btnbackground2,
         tabBarInactiveTintColor: txtWhite,
         tabBarStyle: {
-            height: 70,
+          height: 70,
           backgroundColor: background,
           borderTopWidth: 0,
         },
       }}
     >
       <Tab.Screen
-        name="Home"
-        component={Home2}
+        name="InitialTab"
+        component={Main}
         options={{
           headerShown: false,
           tabBarInactiveTintColor: txtWhite,
@@ -52,7 +54,7 @@ export default function TabNavigator() {
 
       <Tab.Screen
         name="Signals"
-        component={Home2}
+        component={Main}
         options={{
           headerShown: false,
           tabBarInactiveTintColor: txtWhite,
@@ -70,8 +72,8 @@ export default function TabNavigator() {
       />
 
       <Tab.Screen
-        name="QiblaDirection"
-        component={QibleDirection2}
+        name="Home"
+        component={Main}
         options={{
           title: "Home",
           tabBarIcon: ({ focused }) => {
@@ -87,8 +89,8 @@ export default function TabNavigator() {
       />
 
       <Tab.Screen
-        name="Al Quran"
-        component={Quran}
+        name="Courses"
+        component={Main}
         options={{
           title: "courses",
           tabBarIcon: ({ focused }) => {
@@ -104,7 +106,7 @@ export default function TabNavigator() {
       />
       <Tab.Screen
         name="Video Calls"
-        component={Settings}
+        component={Main}
         options={{
           tabBarIcon: ({ focused }) => {
             return (
