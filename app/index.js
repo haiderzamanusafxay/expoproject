@@ -70,7 +70,6 @@ const styles = StyleSheet.create({
     marginTop: 13,
   },
   title: {
-    borderTop: "1px solid #aaa",
     borderBottom: "none",
     borderLeft: "none",
     borderRright: "none",
