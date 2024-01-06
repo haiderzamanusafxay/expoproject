@@ -43,13 +43,29 @@ const Styles = StyleSheet.create({
     overflow: "hidden",
   },
   par: {
-    color: "white",
+    color: "#888789",
     fontSize: 10,
     lineHeight: 1,
   },
   infoFooter: {
     flexDirection: "row",
     justifyContent: "space-between",
+    marginTop: 10,
+  },
+  compBtn: {
+    width: 80,
+    height: 16,
+    backgroundColor: "#262626",
+    justifyContent: "center",
+    alignItems: "center",
+    flexDirection: "row",
+    borderRadius: 6,
+  },
+  compBtnText: {
+    display: "flex",
+    fontSize: 5,
+    color: "yellow",
+    fontWeight: "normal",
   },
   btwText: {
     color: "white",

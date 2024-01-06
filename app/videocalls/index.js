@@ -28,17 +28,126 @@ const Main = () => {
                   about the history of money, the opportunity of <br />
                 </Text>
               </Text>
-              <View style={Styles.infoFooter}></View>
+              <View style={Styles.infoFooter}>
+                <View style={Styles.compBtn}>
+                  <Text style={Styles.compBtnText}>Completed</Text>
+                </View>
+                <Text style={{ fontSize: 10, color: "#FFFFFF" }}>30 min</Text>
+              </View>
             </View>
           </View>
 
-          <View style={Styles.card}></View>
-          <View style={Styles.card}></View>
+          <View style={Styles.card}>
+            <View style={Styles.imageArea}>
+              <Image
+                source={{
+                  uri: "https://as2.ftcdn.net/v2/jpg/03/05/72/59/1000_F_305725989_cYvV092wRhCPfIiyblw0gpaY34uMOcvq.jpg",
+                }}
+              />
+            </View>
+            <View style={Styles.info}>
+              <Text style={{ fontSize: 15, color: "white" }}>
+                ONBOARDING 1 ON 1 SESSION
+              </Text>
+              <Text style={Styles.infoPar}>
+                <Text style={Styles.par}>
+                  Welcome to STARGATE’S first ever Accelerator <br />
+                  Course where you get the opportunity to learn <br />
+                  about the history of money, the opportunity of <br />
+                </Text>
+              </Text>
+              <View style={Styles.infoFooter}>
+                <View style={Styles.compBtn}>
+                  <Text style={Styles.compBtnText}>Completed</Text>
+                </View>
+                <Text style={{ fontSize: 10, color: "#FFFFFF" }}>30 min</Text>
+              </View>
+            </View>
+          </View>
+          <View style={Styles.card}>
+            <View style={Styles.imageArea}>
+              <Image
+                source={{
+                  uri: "https://as2.ftcdn.net/v2/jpg/03/05/72/59/1000_F_305725989_cYvV092wRhCPfIiyblw0gpaY34uMOcvq.jpg",
+                }}
+              />
+            </View>
+            <View style={Styles.info}>
+              <Text style={{ fontSize: 15, color: "white" }}>
+                ONBOARDING 1 ON 1 SESSION
+              </Text>
+              <Text style={Styles.infoPar}>
+                <Text style={Styles.par}>
+                  Welcome to STARGATE’S first ever Accelerator <br />
+                  Course where you get the opportunity to learn <br />
+                  about the history of money, the opportunity of <br />
+                </Text>
+              </Text>
+              <View style={Styles.infoFooter}>
+                <View style={Styles.compBtn}>
+                  <Text style={Styles.compBtnText}>Completed</Text>
+                </View>
+                <Text style={{ fontSize: 10, color: "#FFFFFF" }}>30 min</Text>
+              </View>
+            </View>
+          </View>
           <Text style={Styles.btwText}>
             NEED MORE HELP? YOU CAN BOOK MORE CALLS WITH US.
           </Text>
-          <View style={Styles.card}></View>
-          <View style={Styles.card}></View>
+          <View style={Styles.card}>
+            <View style={Styles.imageArea}>
+              <Image
+                source={{
+                  uri: "https://as2.ftcdn.net/v2/jpg/03/05/72/59/1000_F_305725989_cYvV092wRhCPfIiyblw0gpaY34uMOcvq.jpg",
+                }}
+              />
+            </View>
+            <View style={Styles.info}>
+              <Text style={{ fontSize: 15, color: "white" }}>
+                VIP MEMBER 1 ON 1 SESSION
+              </Text>
+              <Text style={Styles.infoPar}>
+                <Text style={Styles.par}>
+                  Welcome to STARGATE’S first ever Accelerator <br />
+                  Course where you get the opportunity to learn <br />
+                  about the history of money, the opportunity of <br />
+                </Text>
+              </Text>
+              <View style={Styles.infoFooter}>
+                <View style={Styles.compBtn}>
+                  <Text style={Styles.compBtnText}>Completed</Text>
+                </View>
+                <Text style={{ fontSize: 10, color: "#FFFFFF" }}>30 min</Text>
+              </View>
+            </View>
+          </View>
+          <View style={Styles.card}>
+            <View style={Styles.imageArea}>
+              <Image
+                source={{
+                  uri: "https://as2.ftcdn.net/v2/jpg/03/05/72/59/1000_F_305725989_cYvV092wRhCPfIiyblw0gpaY34uMOcvq.jpg",
+                }}
+              />
+            </View>
+            <View style={Styles.info}>
+              <Text style={{ fontSize: 15, color: "white" }}>
+                1 ON 1 TECH SUPPORT SESSION
+              </Text>
+              <Text style={Styles.infoPar}>
+                <Text style={Styles.par}>
+                  Welcome to STARGATE’S first ever Accelerator <br />
+                  Course where you get the opportunity to learn <br />
+                  about the history of money, the opportunity of <br />
+                </Text>
+              </Text>
+              <View style={Styles.infoFooter}>
+                <View style={Styles.compBtn}>
+                  <Text style={Styles.compBtnText}>Completed</Text>
+                </View>
+                <Text style={{ fontSize: 10, color: "#FFFFFF" }}>30 min</Text>
+              </View>
+            </View>
+          </View>
         </View>
       </View>
     </SafeAreaView>
