@@ -27,7 +27,7 @@ const styles = StyleSheet.create({
   },
   inputFieldDbl: {
     paddingLeft: "10px",
-    height: "60px",
+    height: "70px",
     width: "47%",
     backgroundColor: "#1d1d1d",
     borderRadius: "25px",
@@ -53,17 +53,18 @@ const styles = StyleSheet.create({
     height: 40,
     marginLeft: 10,
     backgroundColor: "#1d1d1d",
-    height: 60,
+    height: 70,
     borderRadius: 25,
     width: "100%",
   },
   privacyPolicyText: {
     marginVertical: "10px",
+    flexDirection: "row"
   },
   signupBtn: {
     backgroundColor: "yellow",
     borderRadius: 25,
-    height: 60,
+    height: 70,
     justifyContent: "center",
     alignItems: "center",
     width: "94%",
@@ -90,7 +91,7 @@ const styles = StyleSheet.create({
   inputField: {
     paddingLeft: 15,
     flex: 1,
-    height: 60,
+    height: 70,
     marginLeft: 10,
     backgroundColor: "#1d1d1d",
     borderRadius: 25,
@@ -105,6 +106,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
     width: "94%",
     marginTop: 13,
+    flexDirection: "row", // Align items in a row
   },
   signupWithbtnFb: {
     backgroundColor: "#1877F2",
@@ -114,6 +116,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
     width: "94%",
     marginTop: 13,
+    flexDirection: "row",
   },
   signupWithbtnG: {
     backgroundColor: "white",
@@ -123,7 +126,35 @@ const styles = StyleSheet.create({
     alignItems: "center",
     width: "94%",
     marginTop: 13,
-  }
+    flexDirection: "row",
+  },
+  disIcon: {
+    marginRight: 60,
+  },
+  signupWithbtnFb: {
+    backgroundColor: "#1877F2",
+    borderRadius: 25,
+    height: 70,
+    justifyContent: "center",
+    alignItems: "center",
+    width: "94%",
+    marginTop: 13,
+    flexDirection: "row",
+  },
+  signupWithbtnG: {
+    backgroundColor: "white",
+    borderRadius: 25,
+    height: 70,
+    justifyContent: "center",
+    alignItems: "center",
+    width: "94%",
+    marginTop: 13,
+    flexDirection: "row",
+  },
+  forgetText: {
+    position: "absolute",
+    bottom: 35,
+  },
 });
 
 const Home = () => {
@@ -186,18 +217,35 @@ const Home = () => {
           </legend>
         </View>
         <View style={styles.signupWithbtnDis}>
-          <Text style={{ color: "white", fontSize: 20 }}>
+          <Icon name="discord" size={20} color="white" style={styles.disIcon} />
+          <Text style={{ color: "white", fontSize: 20, marginRight: 10 }}>
             Sign Up With Discord
           </Text>
+          <View style={{ width: "20%" }}></View>
         </View>
         <View style={styles.signupWithbtnFb}>
-          <Text style={{ color: "white", fontSize: 20 }}>
-            Sign Up With Facebook
+          <Icon
+            name="facebook"
+            size={20}
+            color="white"
+            style={styles.disIcon}
+          />
+          <Text style={{ color: "white", fontSize: 20, marginRight: 10 }}>
+            Sign Up With Discord
           </Text>
+          <View style={{ width: "20%" }}></View>
         </View>
         <View style={styles.signupWithbtnG}>
-          <Text style={{ color: "black", fontSize: 20 }}>
+          <Icon name="google" size={20} color="black" style={styles.disIcon} />
+          <Text style={{ color: "black", fontSize: 20, marginRight: 10 }}>
             Sign Up With Google
+          </Text>
+          <View style={{ width: "20%" }}></View>
+        </View>
+        <View style={styles.forgetText}>
+          <Text style={{ color: "#676D75", fontSize: 15 }}>
+            Already have an account?{" "}
+            <Text style={{ color: "yellow" }}>Sign in</Text>
           </Text>
         </View>
       </View>
