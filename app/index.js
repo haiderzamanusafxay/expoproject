@@ -1,5 +1,10 @@
-import TouchableOpacity from "react";
-import { Text, View, StyleSheet, TextInput, Pressable } from "react-native";
+import {
+  Text,
+  View,
+  StyleSheet,
+  TextInput,
+  TouchableOpacity,
+} from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 import Icon from "react-native-vector-icons/FontAwesome5";
 
@@ -16,8 +21,8 @@ const styles = StyleSheet.create({
   },
   twoInputs: {
     flexDirection: "row",
-    justifyContent: "space-around",
-    width: "94%",
+    justifyContent: "space-between",
+    width: "90%",
     marginBottom: "10px",
   },
   inputFieldDbl: {
@@ -60,7 +65,51 @@ const styles = StyleSheet.create({
     alignItems: "center",
     width: "94%",
     marginTop: 13,
-  }
+  },
+
+  inputContainer: {
+    flexDirection: "row",
+    alignItems: "center",
+    width: "100%",
+    borderRadius: 10,
+    paddingLeft: 10,
+    paddingRight: 10,
+    marginVertical: 10,
+    marginTop: 13,
+  },
+  inputField: {
+    paddingLeft: 15,
+    flex: 1,
+    height: 60,
+    marginLeft: 10,
+    backgroundColor: "#1d1d1d",
+    borderRadius: 25,
+    width: "100%",
+    color: "white", // Added text color
+  },
+  iconRight: {
+    left: "40px",
+    right: "auto",
+  },
+  buttonContainer: {
+    flexDirection: "row",
+    borderRadius: 25,
+    paddingLeft: 10,
+    paddingRight: 10,
+    marginVertical: 13,
+    marginTop: 13,
+    backgroundColor: "#5865F2",
+    height: 60,
+    justifyContent: "center",
+    alignItems: "center",
+    width: "94%",
+  },
+  buttonText: {
+    color: "white",
+    fontSize: 18,
+    fontWeight: "bold",
+    textAlign: "center",
+  },
 });
 
 const Home = () => {
@@ -104,29 +153,15 @@ const Home = () => {
           />
           <Icon name="lock" size={20} color="yellow" style={styles.icon} />
         </View>
-        <View
-          style={{
-            padding: 5,
-            flexDirection: "row",
-            alignContent: "center",
-            alignItems: "center",
-          }}
-        >
-          <Text style={{ color: "white", marginLeft: 2 }}>
-            <Icon
-              name="check-square"
-              size={20}
-              color="yellow"
-              style={{ padding: 5, margin: 5 }}
-            />
-            I agree to the terms and conditions of
-            <Text style={{ color: "yellow" }}> Privacy Policy.</Text>
+
+        <View style={styles.signupBtn}>
+          <Text style={{ color: "black", fontWeight: "bold", fontSize: 20 }}>
+            Sign Up
           </Text>
         </View>
-        <View style={styles.signupBtn}>
-            <Text style={{ color: "black", fontWeight: "bold" , fontSize: 20}}>
-              Sign Up
-            </Text>
+        <View style={styles.buttonContainer}>
+          <Icon name="discord" size={20} color="white" style={styles.icon2} />
+          <Text style={styles.buttonText}>Sign Up with Discord</Text>
         </View>
       </View>
     </SafeAreaView>
