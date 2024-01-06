@@ -57,6 +57,9 @@ const styles = StyleSheet.create({
     borderRadius: 25,
     width: "100%",
   },
+  privacyPolicyText: {
+    marginVertical: "10px",
+  },
   signupBtn: {
     backgroundColor: "yellow",
     borderRadius: 25,
@@ -66,7 +69,15 @@ const styles = StyleSheet.create({
     width: "94%",
     marginTop: 13,
   },
-
+  title: {
+    borderTop: "1px solid #aaa",
+    borderBottom: "none",
+    borderLeft: "none",
+    borderRright: "none",
+    display: "block",
+    textAlign: "center",
+    borderColor: "#aaa",
+  },
   inputContainer: {
     flexDirection: "row",
     alignItems: "center",
@@ -107,7 +118,6 @@ const styles = StyleSheet.create({
   buttonText: {
     color: "white",
     fontSize: 18,
-    fontWeight: "bold",
     textAlign: "center",
   },
 });
@@ -153,11 +163,23 @@ const Home = () => {
           />
           <Icon name="lock" size={20} color="yellow" style={styles.icon} />
         </View>
-
+        <View style={styles.privacyPolicyText}>
+          <Text style={{ color: "white" }}>
+            Agree to terms and conditions of{" "}
+            <Text style={{ color: "yellow" }}>Privacy Policy.</Text>
+          </Text>
+        </View>
         <View style={styles.signupBtn}>
           <Text style={{ color: "black", fontWeight: "bold", fontSize: 20 }}>
             Sign Up
           </Text>
+        </View>
+        <View style={styles.title}>
+          <legend
+            style={{ padding: "5px 10px", color: "white", marginTop: "10px" }}
+          >
+            OR
+          </legend>
         </View>
         <View style={styles.buttonContainer}>
           <Icon name="discord" size={20} color="white" style={styles.icon2} />
