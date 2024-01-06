@@ -98,28 +98,33 @@ const styles = StyleSheet.create({
     width: "100%",
     color: "white", // Added text color
   },
-  iconRight: {
-    left: "40px",
-    right: "auto",
-  },
-  buttonContainer: {
-    flexDirection: "row",
-    borderRadius: 25,
-    paddingLeft: 10,
-    paddingRight: 10,
-    marginVertical: 13,
-    marginTop: 13,
+  signupWithbtnDis: {
     backgroundColor: "#5865F2",
-    height: 60,
+    borderRadius: 25,
+    height: 70,
     justifyContent: "center",
     alignItems: "center",
     width: "94%",
+    marginTop: 13,
   },
-  buttonText: {
-    color: "white",
-    fontSize: 18,
-    textAlign: "center",
+  signupWithbtnFb: {
+    backgroundColor: "#1877F2",
+    borderRadius: 25,
+    height: 70,
+    justifyContent: "center",
+    alignItems: "center",
+    width: "94%",
+    marginTop: 13,
   },
+  signupWithbtnG: {
+    backgroundColor: "white",
+    borderRadius: 25,
+    height: 70,
+    justifyContent: "center",
+    alignItems: "center",
+    width: "94%",
+    marginTop: 13,
+  }
 });
 
 const Home = () => {
@@ -181,9 +186,20 @@ const Home = () => {
             OR
           </legend>
         </View>
-        <View style={styles.buttonContainer}>
-          <Icon name="discord" size={20} color="white" style={styles.icon2} />
-          <Text style={styles.buttonText}>Sign Up with Discord</Text>
+        <View style={styles.signupWithbtnDis}>
+          <Text style={{ color: "white", fontSize: 20 }}>
+            Sign Up With Discord
+          </Text>
+        </View>
+        <View style={styles.signupWithbtnFb}>
+          <Text style={{ color: "white", fontSize: 20 }}>
+            Sign Up With Facebook
+          </Text>
+        </View>
+        <View style={styles.signupWithbtnG}>
+          <Text style={{ color: "black", fontSize: 20 }}>
+            Sign Up With Google
+          </Text>
         </View>
       </View>
     </SafeAreaView>
