@@ -33,6 +33,10 @@ const Styles = StyleSheet.create({
   },
   imageArea: {
     width: "33%",
+    flexDirection: "row",
+    alignContent: "center",
+    justifyContent: "center",
+    alignItems: "center",
   },
   info: {
     marginTop: 10,
