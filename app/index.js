@@ -59,7 +59,7 @@ const styles = StyleSheet.create({
   },
   privacyPolicyText: {
     marginVertical: "10px",
-    flexDirection: "row"
+    flexDirection: "row",
   },
   signupBtn: {
     backgroundColor: "yellow",
@@ -72,7 +72,6 @@ const styles = StyleSheet.create({
   },
   title: {
     borderBottom: "none",
-    borderLeft: "none",
     borderRright: "none",
     display: "block",
     textAlign: "center",
@@ -193,12 +192,14 @@ const Home = () => {
         <View style={styles.inputContainer}>
           <TextInput
             style={styles.inputField}
-            placeholder="Email"
+            placeholder="Password"
             placeholderTextColor={"#FFFFFF99"}
           />
           <Icon name="lock" size={20} color="yellow" style={styles.icon} />
         </View>
         <View style={styles.privacyPolicyText}>
+          <Icon name="check-square" size={20} color="yellow" style={{marginRight: 6}} />
+
           <Text style={{ color: "white" }}>
             Agree to terms and conditions of{" "}
             <Text style={{ color: "yellow" }}>Privacy Policy.</Text>
