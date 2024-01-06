@@ -27,7 +27,7 @@ export default function TabNavigator() {
         tabBarActiveTintColor: btnbackground2,
         tabBarInactiveTintColor: txtWhite,
         tabBarStyle: {
-          height: 70,
+          height: 60,
           backgroundColor: background,
           borderTopWidth: 0,
         },
