@@ -1,13 +1,8 @@
 import React from "react";
-import { View, Platform } from "react-native";
+import { Platform } from "react-native";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import Icon from "react-native-vector-icons/FontAwesome5";
-import { NavigationContainer } from "@react-navigation/native";
 import Main from "./index";
-const Quran = () => null;
-const Settings = () => null;
-const QibleDirection2 = () => null;
-const Home2 = () => null;
 const Tab = createBottomTabNavigator();
 
 export default function TabNavigator() {
