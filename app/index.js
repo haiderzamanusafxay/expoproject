@@ -8,7 +8,7 @@ import {
 import { SafeAreaView } from "react-native-safe-area-context";
 import Icon from "react-native-vector-icons/FontAwesome5";
 import Styles from "../assets/css/homeStyles";
-
+import { Link } from "expo-router";
 const Home = () => {
   return (
     <SafeAreaView style={Styles.mainContent}>
@@ -104,7 +104,9 @@ const Home = () => {
         <View style={Styles.forgetText}>
           <Text style={{ color: "#676D75", fontSize: 15 }}>
             Already have an account?{" "}
-            <Text style={{ color: "yellow" }}>Sign in</Text>
+            <Text style={{ color: "yellow" }}>
+              <Link href="videocalls">Sign Up</Link>
+            </Text>
           </Text>
         </View>
       </View>
