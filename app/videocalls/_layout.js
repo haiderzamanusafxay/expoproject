@@ -10,7 +10,6 @@ export default function TabNavigator() {
     background = "#000",
     txtWhite = "#676D75";
   return (
-    // <NavigationContainer>
     <Tab.Navigator
       initialRouteName="Home"
       screenOptions={{
@@ -115,6 +114,5 @@ export default function TabNavigator() {
         }}
       />
     </Tab.Navigator>
-    // </NavigationContainer>
   );
 }
