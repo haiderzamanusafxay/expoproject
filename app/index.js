@@ -1,9 +1,7 @@
 import {
   Text,
   View,
-  Stylesheet,
   TextInput,
-  TouchableOpacity,
 } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 import Icon from "react-native-vector-icons/FontAwesome5";
@@ -69,11 +67,11 @@ const Home = () => {
           </Text>
         </View>
         <View style={Styles.title}>
-          <legend
+          <Text
             style={{ padding: "5px 10px", color: "white", marginTop: "10px" }}
           >
             OR
-          </legend>
+          </Text>
         </View>
         <View style={Styles.signupWithbtnDis}>
           <Icon name="discord" size={20} color="white" style={Styles.disIcon} />
@@ -105,7 +103,9 @@ const Home = () => {
           <Text style={{ color: "#676D75", fontSize: 15 }}>
             Already have an account?{" "}
             <Text style={{ color: "yellow" }}>
-              <Link href="videocalls">Sign Up</Link>
+              <Link href="videocalls">
+                <Text>Sign Up</Text>
+              </Link>
             </Text>
           </Text>
         </View>

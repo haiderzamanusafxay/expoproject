@@ -24,9 +24,9 @@ const Main = () => {
               </Text>
               <Text style={Styles.infoPar}>
                 <Text style={Styles.par}>
-                  Welcome to STARGATE’S first ever Accelerator <br />
-                  Course where you get the opportunity to learn <br />
-                  about the history of money, the opportunity of <br />
+                  Welcome to STARGATES first ever Accelerator {'\n'}
+                  Course where you get the opportunity to learn {'\n'}
+                  about the history of money, the opportunity or {'\n'}
                 </Text>
               </Text>
               <View style={Styles.infoFooter}>
@@ -53,9 +53,9 @@ const Main = () => {
               </Text>
               <Text style={Styles.infoPar}>
                 <Text style={Styles.par}>
-                  Welcome to STARGATE’S first ever Accelerator <br />
-                  Course where you get the opportunity to learn <br />
-                  about the history of money, the opportunity of <br />
+                  Welcome to STARGATE’S first ever Accelerator  {'\n'}
+                  Course where you get the opportunity to learn  {'\n'}
+                  about the history of money, the opportunity of  {'\n'}
                 </Text>
               </Text>
               <View style={Styles.infoFooter}>
@@ -81,9 +81,9 @@ const Main = () => {
               </Text>
               <Text style={Styles.infoPar}>
                 <Text style={Styles.par}>
-                  Welcome to STARGATE’S first ever Accelerator <br />
-                  Course where you get the opportunity to learn <br />
-                  about the history of money, the opportunity of <br />
+                  Welcome to STARGATE’S first ever Accelerator {'\n'}
+                  Course where you get the opportunity to learn {'\n'}
+                  about the history of money, the opportunity of {'\n'}
                 </Text>
               </Text>
               <View style={Styles.infoFooter}>
@@ -112,9 +112,9 @@ const Main = () => {
               </Text>
               <Text style={Styles.infoPar}>
                 <Text style={Styles.par}>
-                  Welcome to STARGATE’S first ever Accelerator <br />
-                  Course where you get the opportunity to learn <br />
-                  about the history of money, the opportunity of <br />
+                  Welcome to STARGATE’S first ever Accelerator {'\n'}
+                  Course where you get the opportunity to learn {'\n'}
+                  about the history of money, the opportunity of {'\n'}
                 </Text>
               </Text>
               <View style={Styles.infoFooter}>
@@ -140,9 +140,9 @@ const Main = () => {
               </Text>
               <Text style={Styles.infoPar}>
                 <Text style={Styles.par}>
-                  Welcome to STARGATE’S first ever Accelerator <br />
-                  Course where you get the opportunity to learn <br />
-                  about the history of money, the opportunity of <br />
+                  Welcome to STARGATE’S first ever Accelerator {'\n'}
+                  Course where you get the opportunity to learn {'\n'}
+                  about the history of money, the opportunity of {'\n'}
                 </Text>
               </Text>
               <View style={Styles.infoFooter}>
