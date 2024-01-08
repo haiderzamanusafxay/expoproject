@@ -104,7 +104,7 @@ const Home = () => {
             Already have an account?{" "}
             <Text style={{ color: "yellow" }}>
               <Link href="videocalls">
-                <Text>Sign Up</Text>
+                <Text>Sign In</Text>
               </Link>
             </Text>
           </Text>
