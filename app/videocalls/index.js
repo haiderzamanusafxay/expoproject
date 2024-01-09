@@ -12,6 +12,7 @@ const Main = () => {
           <View style={Styles.card}>
             <View style={Styles.imageArea}>
               <Image
+                resizeMode="cover"
                 style={{ width: 105, height: 105, borderRadius: 10 }}
                 source={{
                   uri: "https://as2.ftcdn.net/v2/jpg/03/05/72/59/1000_F_305725989_cYvV092wRhCPfIiyblw0gpaY34uMOcvq.jpg",
@@ -41,6 +42,7 @@ const Main = () => {
           <View style={Styles.card}>
             <View style={Styles.imageArea}>
               <Image
+                resizeMode="cover"
                 style={{ width: 105, height: 105, borderRadius: 10 }}
                 source={{
                   uri: "https://media.istockphoto.com/id/1331493599/photo/shot-of-a-businessman-using-a-computer-while-working-in-a-call-center.jpg?s=612x612&w=0&k=20&c=ocaFzVRnDARFnANjyd6CMrwAI0Ua6I0Na_MKej8IysA=",
@@ -69,6 +71,7 @@ const Main = () => {
           <View style={Styles.card}>
             <View style={Styles.imageArea}>
               <Image
+                resizeMode="cover"
                 style={{ width: 105, height: 105, borderRadius: 10 }}
                 source={{
                   uri: "https://previews.123rf.com/images/vgstudio/vgstudio1905/vgstudio190500099/122464860-call-center-service-photo-of-customer-support-agent-female-caller-or-receptionist-phone-operator.jpg",
@@ -100,6 +103,7 @@ const Main = () => {
           <View style={Styles.card}>
             <View style={Styles.imageArea}>
               <Image
+                resizeMode="cover"
                 style={{ width: 105, height: 105, borderRadius: 10 }}
                 source={{
                   uri: "https://static.independent.co.uk/2021/01/06/10/bitcoin%20price%20latest%20today.jpg?quality=75&width=1200&auto=webp",
@@ -128,6 +132,7 @@ const Main = () => {
           <View style={Styles.card}>
             <View style={Styles.imageArea}>
               <Image
+                resizeMode="cover"
                 style={{ width: 105, height: 105, borderRadius: 10 }}
                 source={{
                   uri: "https://img.freepik.com/premium-photo/bitcoin-crypto-currency-paying-online-pay-digital-money-cryptocurrency-business-finances-square_770123-1439.jpg",

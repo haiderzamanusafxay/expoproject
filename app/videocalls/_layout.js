@@ -1,11 +1,12 @@
 import React from "react";
-import { Platform } from "react-native";
+import { Platform, Pressable } from "react-native";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import Icon from "react-native-vector-icons/FontAwesome5";
 import Main from "./index";
 const Tab = createBottomTabNavigator();
 
-export default function TabNavigator() {
+export default function Layout() {
+  
   const btnbackground2 = "#FEC903",
     background = "#000",
     txtWhite = "#676D75";
