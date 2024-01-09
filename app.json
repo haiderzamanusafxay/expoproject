@@ -8,6 +8,17 @@
       "expo-router"
     ],
     "name": "appnew",
-    "slug": "appnew"
+    "slug": "appnew",
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "d23f139e-42b9-4445-a8fd-dffa7d2043d4"
+      }
+    },
+    "android": {
+      "package": "com.haiderzamanyzi.expoproject"
+    }
   }
 }
