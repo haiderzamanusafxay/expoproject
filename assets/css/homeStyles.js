@@ -66,6 +66,7 @@ const Styles = StyleSheet.create({
     display: "block",
     textAlign: "center",
     borderColor: "#aaa",
+    marginTop: 10,
   },
   inputContainer: {
     flexDirection: "row",
